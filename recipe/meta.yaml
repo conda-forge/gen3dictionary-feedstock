@@ -1,4 +1,4 @@
-{% set version = "2.0.3" %}
+{% set version = "2.0.4" %}
 
 package:
   name: gen3dictionary
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/gen3dictionary/gen3dictionary-{{ version }}.tar.gz
-  sha256: 46a704e202a79be96ec08969d28885794d4825b94394103dca08e3637bd6cb82
+  sha256: 6a798008f32c4a5c1833fbc03e841ebe12bb5b743812ec7c00211c0268f15c05
 
 build:
   number: 0
