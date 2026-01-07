@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 2.0.4
+  version: "3.0.0"
 
 package:
   name: gen3dictionary
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/gen3dictionary/gen3dictionary-${{ version }}.tar.gz
-  sha256: 6a798008f32c4a5c1833fbc03e841ebe12bb5b743812ec7c00211c0268f15c05
+  sha256: 737a3f23445a81d9c7a566da0a8ca8c5d17c3fc0eed74b9819eff74836abc3e6
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
